@@ -1,0 +1,16 @@
+    
+    $scope.display==function(target){
+        $scope.showForm = false;
+        $scope.showAdmin = false;
+        $scope.showHome = false;
+        if(target == $scope.showAdmin)
+            $scope.showAdmin= true;
+        else if(target == $scope.showForm){
+            $scope.showForm=true;
+            $scope.FormStyle ={"display":"block"};
+
+        }
+        else
+            $scope.showHome = true;    
+         
+    }

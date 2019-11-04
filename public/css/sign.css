@@ -1,0 +1,130 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.login-box
+{	
+	min-height: 100vh;
+	width:250px;
+	position: absolute;
+	top: 21%;
+	left: 40%;
+	color: white;
+
+}
+
+
+.login-box h1
+{
+	float: left;
+	font-size: 40px;
+	border-bottom: 5px solid #4caf50;
+	margin-bottom: 60px;
+	padding: 17px 0;
+
+}
+
+.text-box
+{	
+	transition: 0.5s all ease-in-out;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 18px 0;
+	border-bottom: 1px solid #4caf50;
+}
+.text-box:hover
+{
+	border-bottom: 1px solid red;
+
+}
+
+.text-box i
+{
+	width: 26px;
+	float: left;
+
+	text-align: center;
+
+}
+.text-box input
+{
+	border:none;
+	background: none;
+	outline: none;
+	color: white;
+	font-size: 18px;
+	width: 80%;
+	float: left;
+	margin: 10 10px;
+
+
+}
+
+.btn
+
+{	transition: 0.5s all ease-in-out;
+
+	width: 100%;
+	background: none;
+	border:2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	margin: 12px 0;
+	cursor: pointer;
+	
+}
+
+.btn:before{
+		content:"";
+		background-color: rgba(255,255,255,0.5);
+		height: 100%;
+		width: 2em;
+		display:block;
+		position: absolute;
+		top: 0;
+		left: -4.5em;
+		transform: skewY(-45deg) translateX(0);
+		transition: none;
+		transform:skewX(-45deg) translateX(0.1em);
+
+		}
+
+.btn:hover{
+	background-color: #2194E0;
+	color: #fff;
+	border-bottom: 4px solid darken(#2194E0,10%);
+
+		}
+.btn:hover:before
+		{
+			 transform:skewX(-45deg) translateX(13.1em);
+			 transition: all 0.4s ease-in-out;
+		}
+
+.links ul
+{
+	list-style-type: circle;
+}
+.links ul a
+{
+	text-decoration:none;
+	display: block;
+	color: skyblue;
+	transition: 0.3s all ease-in;
+}
+
+.links a:hover
+{
+		color: #000;
+
+}
+
+
+.socials a
+{
+	text-decoration:none;
+	display:inline-block;
+	color: skyblue;
+	transition: 0.3s all ease-in;
+}
